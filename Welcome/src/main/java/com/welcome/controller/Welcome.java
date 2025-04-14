@@ -21,7 +21,7 @@ public class Welcome {
 	public String helloCOntroller()
 	{
 		
-		return "!!!!!!!!!!!!Welcome from Springboot!!!!!!!!!!!!!!!!";
+		return "!!!!!!!!!!!!Hello from controller!!!!!!!!!!!!!!!!";
 		
 	}
 }
