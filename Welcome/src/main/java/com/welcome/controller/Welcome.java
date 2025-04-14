@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Welcome {
+
 	
 	
 	@GetMapping("/welcome")
@@ -18,6 +19,15 @@ public class Welcome {
 	}
 	
 	@GetMapping("/hello")
+	public String helloCOntroller()
+	{
+		
+		return "!!!!!!!!!!!!Welcome from Springboot!!!!!!!!!!!!!!!!";
+		
+	}
+
+
+@GetMapping("/good")
 	public String helloCOntroller()
 	{
 		
