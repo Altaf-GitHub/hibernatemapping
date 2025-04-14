@@ -34,4 +34,13 @@ public class Welcome {
 		return "!!!!!!!!!!!!Hello from good contoller!!!!!!!!!!!!!!!!";
 		
 	}
+
+
+@GetMapping("/yes")
+	public String helloCOntroller()
+	{
+		
+		return "!!!!!!!!!!!!Hello from yes contoller!!!!!!!!!!!!!!!!";
+		
+	}
 }
