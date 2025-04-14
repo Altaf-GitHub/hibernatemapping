@@ -24,4 +24,14 @@ public class Welcome {
 		return "!!!!!!!!!!!!Hello from controller!!!!!!!!!!!!!!!!";
 		
 	}
+
+
+
+	@GetMapping("/good")
+	public String helloCOntroller()
+	{
+		
+		return "!!!!!!!!!!!!Hello from good contoller!!!!!!!!!!!!!!!!";
+		
+	}
 }
